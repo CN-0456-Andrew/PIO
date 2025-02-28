@@ -1,0 +1,19 @@
+{
+  "build": {
+    "core": "my_core",
+    "cpu": "cortex-m0",
+    "f_cpu": "160000000L"
+  },
+  "debug": {
+    "tools": {
+      "cmsis-dap": { "onboard": true }
+    }
+  },
+  "name": "My Custom Board",
+  "upload": {
+    "maximum_ram_size": 32768,
+    "maximum_size": 524288
+  },
+  "url": "https://my-board-docs.com",
+  "vendor": "My Company"
+}

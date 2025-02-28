@@ -1,0 +1,17 @@
+{
+  "name": "cellwise_platform",      
+  "version": "1.0.0",         
+  "description": "The platform for cellwise chips.",
+  "homepage": "https://github.com/yourusername/my_platform",
+  "repository": {             
+    "type": "git",
+    "url": "https://github.com/CN-0456-Andrew/PIO.git"
+  },
+  "frameworks": ["CMSIS"],  
+  "packages": {               
+    "toolchain-gccarmnoneeabi": {
+      "type": "toolchain",
+      "version": ">=1.60300.0"
+    }
+  }
+}
